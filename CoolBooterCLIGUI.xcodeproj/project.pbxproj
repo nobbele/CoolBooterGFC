@@ -11,7 +11,6 @@
 		D035B0491F89030700C12818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035B0481F89030700C12818 /* ViewController.swift */; };
 		D035B04B1F89030700C12818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D035B04A1F89030700C12818 /* Assets.xcassets */; };
 		D035B04E1F89030700C12818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D035B04C1F89030700C12818 /* Main.storyboard */; };
-		D035B0591F89030700C12818 /* CoolBooterCLIGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035B0581F89030700C12818 /* CoolBooterCLIGUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +24,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D035B0431F89030700C12818 /* CoolBooterCLIGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBooterCLIGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D035B0431F89030700C12818 /* CoolBooterCLIGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CoolBooterCLIGUI.app; path = "/Users/viggo-mac/Desktop/XCode/CoolBooterCLIGUI/build/Debug/CoolBooterCLIGUI.app"; sourceTree = "<absolute>"; };
 		D035B0461F89030700C12818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D035B0481F89030700C12818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D035B04A1F89030700C12818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D035B04D1F89030700C12818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D035B04F1F89030700C12818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D035B0541F89030700C12818 /* CoolBooterCLIGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolBooterCLIGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D035B0581F89030700C12818 /* CoolBooterCLIGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBooterCLIGUITests.swift; sourceTree = "<group>"; };
-		D035B05A1F89030700C12818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,18 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				D035B0451F89030700C12818 /* CoolBooterCLIGUI */,
-				D035B0571F89030700C12818 /* CoolBooterCLIGUITests */,
-				D035B0441F89030700C12818 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D035B0441F89030700C12818 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D035B0431F89030700C12818 /* CoolBooterCLIGUI.app */,
-				D035B0541F89030700C12818 /* CoolBooterCLIGUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D035B0451F89030700C12818 /* CoolBooterCLIGUI */ = {
@@ -82,15 +67,6 @@
 				D035B04F1F89030700C12818 /* Info.plist */,
 			);
 			path = CoolBooterCLIGUI;
-			sourceTree = "<group>";
-		};
-		D035B0571F89030700C12818 /* CoolBooterCLIGUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D035B0581F89030700C12818 /* CoolBooterCLIGUITests.swift */,
-				D035B05A1F89030700C12818 /* Info.plist */,
-			);
-			path = CoolBooterCLIGUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +139,7 @@
 				Base,
 			);
 			mainGroup = D035B03A1F89030700C12818;
-			productRefGroup = D035B0441F89030700C12818 /* Products */;
+			productRefGroup = D035B03A1F89030700C12818;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -206,7 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D035B0591F89030700C12818 /* CoolBooterCLIGUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +307,7 @@
 				DEVELOPMENT_TEAM = 9BQCK8ZWD7;
 				INFOPLIST_FILE = CoolBooterCLIGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Viggo.CoolBooterCLIGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ppleCracker.CoolBooterCLIGUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -346,7 +321,7 @@
 				DEVELOPMENT_TEAM = 9BQCK8ZWD7;
 				INFOPLIST_FILE = CoolBooterCLIGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Viggo.CoolBooterCLIGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ppleCracker.CoolBooterCLIGUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -403,6 +378,7 @@
 				D035B05F1F89030700C12818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D035B0601F89030700C12818 /* Build configuration list for PBXNativeTarget "CoolBooterCLIGUITests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +387,7 @@
 				D035B0621F89030700C12818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

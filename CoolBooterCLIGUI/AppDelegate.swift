@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  CoolBooterCLIGUI
-//
-//  Created by Viggo Ingmarsson on 10/7/17.
-//  Copyright © 2017 Viggo Ingmarsson. All rights reserved.
-//
+
 
 import Cocoa
 
