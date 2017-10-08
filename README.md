@@ -1,2 +1,2 @@
 # CoolBooterGFC
-GUI For CLI
+GUI For CoolBooterCLI
